@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^7.2.5 || ^8.0",
-        "jane-php/automapper": "^7.0"
+        "jane-php/automapper": "dev-my-run"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0",
@@ -48,6 +48,13 @@
         "process-timeout": 1800,
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "vendor-alias": "jane-php/automapper",
+            "url": "https://github.com/GeoffreyIdks/janephp-automapper.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
