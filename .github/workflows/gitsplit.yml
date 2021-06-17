@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        run: git clone https://github.com/GeoffreyIdks/janephp.git /home/runner/work/janephp/janephp && cd /home/runner/work/janephp/janephp
+        run: git clone --branch my-run https://github.com/GeoffreyIdks/janephp.git /home/runner/work/janephp/janephp && cd /home/runner/work/janephp/janephp
 
       - name: docker-cache
         uses: satackey/action-docker-layer-caching@v0.0.8
