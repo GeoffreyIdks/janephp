@@ -37,3 +37,4 @@ splits:
 # List of references to split (defined as regexp)
 origins:
   - ^my-run
+  - ^v[7]+\.\d+\.\d+$
